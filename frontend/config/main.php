@@ -43,5 +43,10 @@ return [
             ],
         ],
     ],
+    'modules' => [
+        'crawler' => [
+            'class' => 'frontend\modules\crawler\CrawlerModule',
+        ],
+    ],
     'params' => $params,
 ];
